@@ -1,12 +1,9 @@
 {
   "name": "waka-box",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "📊 Update a gist to contain your weekly WakaTime stats",
   "author": "Matan Kushner <hello@matchai.me>",
   "license": "ISC",
-  "scripts": {
-    "build": "ncc build index.js --out dist --minify"
-  },
   "dependencies": {
     "@octokit/rest": "^19.0.5",
     "axios": "^1.2.1",
